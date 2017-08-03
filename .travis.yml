@@ -20,3 +20,4 @@ script:
   - sleep 5
   - docker-compose exec mobile npm test
   - docker-compose exec mobile npm run lint
+  - docker-compose exec mobile npm run test:pa11y
