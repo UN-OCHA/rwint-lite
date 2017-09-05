@@ -18,7 +18,7 @@ script:
   - docker-compose build
   - docker-compose up -d
   - sleep 5
-  - docker-compose exec mobile sh -c "curl -sL "https://github.com/dustinblackman/phantomized/releases/download/2.1.1/dockerized-phantomjs.tar.gz" | tar zx -C /" && \
+  - docker-compose exec mobile sh -c "curl -sL \"https://github.com/dustinblackman/phantomized/releases/download/2.1.1/dockerized-phantomjs.tar.gz\" | tar zx -C /" && \
   - docker-compose exec mobile npm test
   - docker-compose exec mobile npm run lint
   - docker-compose exec mobile npm run test:pa11y
