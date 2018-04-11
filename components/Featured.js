@@ -29,7 +29,7 @@ export class Featured extends React.Component {
                 <SimpleLink link={item} />
               </li>
             )
-          )}
+            )}
         </ul>
         <style jsx>{`
           ul {

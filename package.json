@@ -50,6 +50,6 @@
     "pa11y-ci": "^1.2.0",
     "react-test-renderer": "^16.2.0",
     "redux-mock-store": "^1.2.3",
-    "standard": "^10.0.2"
+    "standard": "^11.0.0"
   }
 }
