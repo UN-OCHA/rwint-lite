@@ -35,7 +35,7 @@
     "sanitize-html": "^1.17.0",
     "sw-toolbox": "^3.6.0",
     "thunk": "0.0.1",
-    "winston": "^2.3.1"
+    "winston": "^3.0.0"
   },
   "devDependencies": {
     "babel-jest": "^22.1.0",
