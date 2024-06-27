@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
       <html lang='en'>
         <Head>
           <GTMInit />
-          <script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=Object.assign,Map,Set' />
+          <script src='https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js?features=Object.assign,Map,Set' />
         </Head>
         <body>
           <GTMIframe />
